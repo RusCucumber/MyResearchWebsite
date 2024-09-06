@@ -5,12 +5,11 @@ subtitle: "Here is an overview of the project I have been working on."
 
 ## Project I
 
-A description of Project 
-
+A description of Project
 
 ## Project II
 
-A description of Project 
+A description of Project
 
 # Publication
 

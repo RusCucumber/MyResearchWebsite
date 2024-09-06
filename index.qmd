@@ -1,6 +1,6 @@
 ---
-title: "Author"
-image: profile.png
+title: "Ryuki Matsuura <br> <font size=5>(松浦 瑠希, Рюки Мацуура)</font>"
+image: CMU_my_pic.jpg
 about:
   id: hero-heading
   template: trestles
@@ -8,19 +8,76 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+      href: https://x.com/RyukiMatsuura
     - icon: github
-      text: Github
-      href: https://github.com
+      text: GitHub
+      href: https://github.com/RusCucumber
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=tSdtMnYAAAAJ
+    - icon: person-fill
+      text: Research Gate
+      href: https://www.researchgate.net/profile/Ryuki_Matsuura
 ---
 
 ::: {#hero-heading}
-I am a researcher at University of Oslo.
+## Affiliation
 
-My work is about Electronic Health Records. My thesis is about ...
+***Ph.D. Student, Carnegie Mellon University, United States***
 
-I am interested in developing packages. For example, ...
+## Education
+
+2024-Present: ***Ph.D. in Applied Linguistics**, Carnegie Mellon University, United States*
+
+2022-2024: ***M.A. in Engineering**, Waseda University, Japan*
+
+2018-2019: Student Exchange Program, St. Petersburg State University, Russia
+
+2017-2022: ***B.A. in Liberal Arts**, Waseda University, Japan*
 :::
+
+<div>
+
+## Research
+
+My research interests lie in the effective assessment, feedback, and learning assistance of L2 speech utilizing AI/ML techniques. More specifically, I have conducted research of automated scoring systems for L2 oral fluency. My master's dissertation study aimed to automatize effective *recasts* and explored linguistic factors in dialogic responses which affect interlocutor's comprehensibility focusing on lexical error types and rhetorical roles of utterances. In my Ph.D. study, I intend to develop and validate *Computerized Dynamic Assessment* (*C-DA*) systems for L2 productive knowledge and skills. In addition, I am interested in expanding research methods in applied linguistic using state-of-the-art AI technologies. I developed a system to automatically annotate the full range of oral fluency features (i.e., syllables, disfluency words, and pause locations). I am open to collaborating with researchers worldwide by automatizing L2 data annotations and analyses.
+
+</div>
+
+<div>
+
+## Recent Publication
+
+-   **Matsuura, R.** & Suzuki, S. (2023). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. Proc. of Artificial Intelligence in Education (AIED). doi: <https://doi.org/10.1007/978-3-031-36272-9_62>
+
+-   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). 1312-1320. doi: <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
+
+</div>
+
+<div>
+
+## Scholarship
+
+-   April 2022 – March 2024: ***JPC Scholarship Foundation*** **(JPC奨学財団)**.
+
+    -   Amount awarded: JPY 720,000 (approx. USD 5,100).
+
+-   April 2024 – March 2027: ***Japan Society for the Promotion of Science Doctoral Course (DC) Research Fellowship***.
+
+    -   Amount awarded: JPY 7,200,000 (approx. USD 51,000).
+
+    -   I declined the fellowship because I started a Ph.D. program outside Japan.
+
+-   August 2024 – May 2028 (expected): ***Dick Tucker SLA Fellowship**.*
+
+    -   Amount awarded: (USD 2,500 per month).
+
+</div>
+
+<div>
+
+## Contact
+
+-   Email: rmatsuur\[at\]andrew.cmu.edu
+
+</div>

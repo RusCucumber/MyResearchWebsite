@@ -4,10 +4,10 @@ project:
 
 website:
   page-navigation: true
-  title: "Hello :)"
+  title: "Ryuki Matsuura"
 
   page-footer:
-    left: "&copy; Copyright 2022, Author"
+    left: "&copy; Copyright 2022, Ryuki Matsuura"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 
   navbar:
@@ -15,11 +15,14 @@ website:
       - href: index.qmd
         text: Home
 
-      - href: projects/index.qmd
-        text: Projects
+      - href: publication.qmd
+        text: Publication
 
-      - href: about.qmd
-        text: About
+      #- href: projects/index.qmd
+      #  text: Projects
+
+      # - href: about.qmd
+      #   text: About
 
 format:
   html:

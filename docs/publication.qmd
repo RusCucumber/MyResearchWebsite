@@ -1,0 +1,6 @@
+---
+title: "Ryuki Matsuura <br> <font size=5>(松浦 瑠希, Рюки Мацуура)</font>"
+about:
+  id: hero-heading
+  template: trestles
+---
