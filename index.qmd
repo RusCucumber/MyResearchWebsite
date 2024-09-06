@@ -6,8 +6,8 @@ about:
   template: trestles
   image-shape: rectangle
   links:
-    - icon: twitter
-      text: Twitter
+    - icon: twitter-x
+      text: X (Twitter)
       href: https://x.com/RyukiMatsuura
     - icon: github
       text: GitHub
