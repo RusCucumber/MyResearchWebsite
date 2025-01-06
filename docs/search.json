@@ -42,6 +42,13 @@
     "text": "Scholarship\n\nApril 2022 – March 2024: JPC Scholarship Foundation (JPC奨学財団).\n\nAmount awarded: JPY 720,000 (approx. USD 5,100).\n\nApril 2024 – March 2027: Japan Society for the Promotion of Science Doctoral Course (DC) Research Fellowship.\n\nAmount awarded: JPY 7,200,000 (approx. USD 51,000).\nI declined the fellowship because I started a Ph.D. program outside Japan.\n\nAugust 2024 – May 2028 (expected): Dick Tucker SLA Fellowship.\n\nAmount awarded: (USD 2,500 per month)."
   },
   {
+    "objectID": "index.html#patents",
+    "href": "index.html#patents",
+    "title": "Ryuki Matsuura  (松浦 瑠希, Рюки Мацуура)",
+    "section": "Patents",
+    "text": "Patents\n\nDynamic Speaking Assessment (Japan 2024-114919; 2024年7月18日)\nSpeaking Proficiency Assessment (Japan 2023-177296; 2023年10月14日)"
+  },
+  {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
     "title": "Ryuki Matsuura  (松浦 瑠希, Рюки Мацуура)",
@@ -54,6 +61,20 @@
     "title": "Ryuki Matsuura",
     "section": "",
     "text": "Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \nI am a research assistant at Waseda University.\nMy work is about Electronic Health Records. My thesis is about …\nI am interested in developing packages. For example, …"
+  },
+  {
+    "objectID": "fluency_annotation_sys.html",
+    "href": "fluency_annotation_sys.html",
+    "title": "Fluency Annotation System",
+    "section": "",
+    "text": "Oral fluency feature annotation system is a open-source program which allows users to detect temporal speech features, including disfluency words (e.g., repetitions, self-repairs, & false starts) and pause locations (i.e., mid- & end-clause pauses) and calculate utterance fluency measures (See Matsuura et al. (2025) for more detailed information). Python scripts of the system are available here.\n\n\n\n\nInstall Docker\n\nFollowing steps in the link, install and set up Docker in your computer.\n\nPull Docker image\n\nRun the following command in Terminal.\n{docker pull ruscucumber/fluency-feature-annotator:0.2.0}\n\nRun Docker container\n\nRun the following command in Terminal.\n{docker run -d -p 8001:8001 -v ~/Downloads:/app/fluencyfeatureannotator/results -it --name ffa ruscucumber/fluency-feature-annotator:0.2.0}\n\nOpen Web application\n\nOpen the following URL in your browser: http://127.0.0.1:8001/\n\n\n\n\n\n\nPrepare pairs of wav and txt files.\n\nYou need to ensure that the filenames of wav and txt are the same.\nRemove punctuations and symbols (e.g., ., ,, !, ?, \", &, $, -) in txt files.\n\nClick “① Select wav & txt files” button and select target files.\nClick “② Upload wav & txt files” button and upload selected files.\nClick “③ Annotate fluency features” button.\nCheck your Downloads directory.\n\nAnnotation results are saved as a TextGrid format in results folder.\nUtterance fluency measures are saved as “results/result.csv”.\n\n\n\n\n\n\nTo use the current version of the system, you need to ensure at least 5GB of available storage space.\nThe current version of the system has only been tested on the following environment. It is not currently guaranteed that the system will work in other environments.\n\n\n\n\nOS\nmacOS Ventura 13.4\n\n\nRAM\nApple M1 16GB\n\n\nPython version\n3.9.6\n\n\n\n\nSince the current version of the system saves the results of annotation as “result.csv”, please be careful to avoid overwriting a file with the same name.\nIf you input long audio files (e.g., long than 3 mins), the current version of the system may stop automatic annotation due to a memory issue.\nIf you would like to use raw python scripts with pre-trained parameters, please contact at rmatsuur[at]andrew.cmu.edu\nIf you find any issues, please contact at rmatsuur[at]andrew.cmu.edu or add issues in the GitHub repository."
+  },
+  {
+    "objectID": "fluency_annotation_sys.html#oral-fluency-feature-annotation-system",
+    "href": "fluency_annotation_sys.html#oral-fluency-feature-annotation-system",
+    "title": "Fluency Annotation System",
+    "section": "",
+    "text": "Oral fluency feature annotation system is a open-source program which allows users to detect temporal speech features, including disfluency words (e.g., repetitions, self-repairs, & false starts) and pause locations (i.e., mid- & end-clause pauses) and calculate utterance fluency measures (See Matsuura et al. (2025) for more detailed information). Python scripts of the system are available here.\n\n\n\n\nInstall Docker\n\nFollowing steps in the link, install and set up Docker in your computer.\n\nPull Docker image\n\nRun the following command in Terminal.\n{docker pull ruscucumber/fluency-feature-annotator:0.2.0}\n\nRun Docker container\n\nRun the following command in Terminal.\n{docker run -d -p 8001:8001 -v ~/Downloads:/app/fluencyfeatureannotator/results -it --name ffa ruscucumber/fluency-feature-annotator:0.2.0}\n\nOpen Web application\n\nOpen the following URL in your browser: http://127.0.0.1:8001/\n\n\n\n\n\n\nPrepare pairs of wav and txt files.\n\nYou need to ensure that the filenames of wav and txt are the same.\nRemove punctuations and symbols (e.g., ., ,, !, ?, \", &, $, -) in txt files.\n\nClick “① Select wav & txt files” button and select target files.\nClick “② Upload wav & txt files” button and upload selected files.\nClick “③ Annotate fluency features” button.\nCheck your Downloads directory.\n\nAnnotation results are saved as a TextGrid format in results folder.\nUtterance fluency measures are saved as “results/result.csv”.\n\n\n\n\n\n\nTo use the current version of the system, you need to ensure at least 5GB of available storage space.\nThe current version of the system has only been tested on the following environment. It is not currently guaranteed that the system will work in other environments.\n\n\n\n\nOS\nmacOS Ventura 13.4\n\n\nRAM\nApple M1 16GB\n\n\nPython version\n3.9.6\n\n\n\n\nSince the current version of the system saves the results of annotation as “result.csv”, please be careful to avoid overwriting a file with the same name.\nIf you input long audio files (e.g., long than 3 mins), the current version of the system may stop automatic annotation due to a memory issue.\nIf you would like to use raw python scripts with pre-trained parameters, please contact at rmatsuur[at]andrew.cmu.edu\nIf you find any issues, please contact at rmatsuur[at]andrew.cmu.edu or add issues in the GitHub repository."
   },
   {
     "objectID": "publication.html",
@@ -110,26 +131,5 @@
     "title": "Projects",
     "section": "Project II",
     "text": "Project II\nA description of Project"
-  },
-  {
-    "objectID": "index.html#patents",
-    "href": "index.html#patents",
-    "title": "Ryuki Matsuura  (松浦 瑠希, Рюки Мацуура)",
-    "section": "Patents",
-    "text": "Patents\n\nDynamic Speaking Assessment (Japan 2024-114919; 2024年7月18日)\nSpeaking Proficiency Assessment (Japan 2023-177296; 2023年10月14日)"
-  },
-  {
-    "objectID": "fluency_annotation_sys.html",
-    "href": "fluency_annotation_sys.html",
-    "title": "Fluency Annotation System",
-    "section": "",
-    "text": "Oral fluency feature annotation system is a open-source program which allows users to detect temporal speech features, including disfluency words (e.g., repetitions, self-repairs, & false starts) and pause locations (i.e., mid- & end-clause pauses) and calculate utterance fluency measures (See Matsuura et al. (2025) for more detailed information). Python scripts of the system are available here.\n\n\n\n\nInstall Docker\n\nFollowing steps in the link, install and set up Docker in your computer.\n\nPull Docker image\n\nRun the following command in Terminal.\ndocker pull ruscucumber/fluency-feature-annotator:0.2.0\n\nRun Docker container\n\nRun the following command in Terminal.\ndocker run -d -p 8001:8001 -v ~/Downloads:/app/fluencyfeatureannotator/results -it --name ffa ruscucumber/fluency-feature-annotator:0.2.0\n\nOpen Web application\n\nOpen the following URL in your browser: http://127.0.0.1:8001/\n\n\n\n\n\n\nPrepare pairs of wav and txt files.\n\nYou need to ensure that the filenames of wav and txt are the same.\nRemove punctuations and symbols (e.g., ., ,, !, ?, \", &, $, -) in txt files.\n\nClick “① Select wav & txt files” button and select target files.\nClick “② Upload wav & txt files” button and upload selected files.\nClick “③ Annotate fluency features” button.\nCheck your Downloads directory.\n\nAnnotation results are saved as a TextGrid format in results folder.\nUtterance fluency measures are saved as “results/result.csv”.\n\n\n\n\n\n\nTo use the current version of the system, you need to ensure at least 5GB of available storage space.\nThe current version of the system has only been tested on the following environment. It is not currently guaranteed that the system will work in other environments.\n\n\n\n\nOS\nmacOS Ventura 13.4\n\n\nRAM\nApple M1 16GB\n\n\nPython version\n3.9.6\n\n\n\n\nSince the current version of the system saves the results of annotation as “result.csv”, please be careful to avoid overwriting a file with the same name.\nIf you input long audio files (e.g., long than 3 mins), the current version of the system may stop automatic annotation due to a memory issue.\nIf you would like to use raw python scripts with pre-trained parameters, please contact at rmatsuur[at]andrew.cmu.edu\nIf you find any issues, please contact at rmatsuur[at]andrew.cmu.edu or add issues in the GitHub repository."
-  },
-  {
-    "objectID": "fluency_annotation_sys.html#oral-fluency-feature-annotation-system",
-    "href": "fluency_annotation_sys.html#oral-fluency-feature-annotation-system",
-    "title": "Fluency Annotation System",
-    "section": "",
-    "text": "Oral fluency feature annotation system is a open-source program which allows users to detect temporal speech features, including disfluency words (e.g., repetitions, self-repairs, & false starts) and pause locations (i.e., mid- & end-clause pauses) and calculate utterance fluency measures (See Matsuura et al. (2025) for more detailed information). Python scripts of the system are available here.\n\n\n\n\nInstall Docker\n\nFollowing steps in the link, install and set up Docker in your computer.\n\nPull Docker image\n\nRun the following command in Terminal.\ndocker pull ruscucumber/fluency-feature-annotator:0.2.0\n\nRun Docker container\n\nRun the following command in Terminal.\ndocker run -d -p 8001:8001 -v ~/Downloads:/app/fluencyfeatureannotator/results -it --name ffa ruscucumber/fluency-feature-annotator:0.2.0\n\nOpen Web application\n\nOpen the following URL in your browser: http://127.0.0.1:8001/\n\n\n\n\n\n\nPrepare pairs of wav and txt files.\n\nYou need to ensure that the filenames of wav and txt are the same.\nRemove punctuations and symbols (e.g., ., ,, !, ?, \", &, $, -) in txt files.\n\nClick “① Select wav & txt files” button and select target files.\nClick “② Upload wav & txt files” button and upload selected files.\nClick “③ Annotate fluency features” button.\nCheck your Downloads directory.\n\nAnnotation results are saved as a TextGrid format in results folder.\nUtterance fluency measures are saved as “results/result.csv”.\n\n\n\n\n\n\nTo use the current version of the system, you need to ensure at least 5GB of available storage space.\nThe current version of the system has only been tested on the following environment. It is not currently guaranteed that the system will work in other environments.\n\n\n\n\nOS\nmacOS Ventura 13.4\n\n\nRAM\nApple M1 16GB\n\n\nPython version\n3.9.6\n\n\n\n\nSince the current version of the system saves the results of annotation as “result.csv”, please be careful to avoid overwriting a file with the same name.\nIf you input long audio files (e.g., long than 3 mins), the current version of the system may stop automatic annotation due to a memory issue.\nIf you would like to use raw python scripts with pre-trained parameters, please contact at rmatsuur[at]andrew.cmu.edu\nIf you find any issues, please contact at rmatsuur[at]andrew.cmu.edu or add issues in the GitHub repository."
   }
 ]
