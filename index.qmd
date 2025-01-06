@@ -48,6 +48,8 @@ My research interests lie in the effective assessment, feedback, and learning as
 
 ## Recent Publication
 
+-   **Matsuura, R.**, Suzuki, S., Takizawa, K., Saeki, M., & Matsuyama, Y. (2025). Gauging the Validity of Machine Learning-Based Temporal Feature Annotation to Measure Fluency in Speech Automatically. *Research Methods in Applied Linguistics*, *4*(1), 1-23. <https://doi.org/10.1016/j.rmal.2024.100177>
+
 -   **Matsuura, R.** & Suzuki, S. (2023). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. Proc. of Artificial Intelligence in Education (AIED). doi: <https://doi.org/10.1007/978-3-031-36272-9_62>
 
 -   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). 1312-1320. doi: <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
@@ -71,6 +73,16 @@ My research interests lie in the effective assessment, feedback, and learning as
 -   August 2024 – May 2028 (expected): ***Dick Tucker SLA Fellowship**.*
 
     -   Amount awarded: (USD 2,500 per month).
+
+</div>
+
+<div>
+
+## Patents
+
+-   Dynamic Speaking Assessment (Japan 2024-114919; 2024年7月18日)
+
+-   Speaking Proficiency Assessment (Japan 2023-177296; 2023年10月14日)
 
 </div>
 
