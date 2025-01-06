@@ -7,7 +7,7 @@ website:
   title: "Ryuki Matsuura"
 
   page-footer:
-    left: "&copy; Copyright 2022, Ryuki Matsuura"
+    left: "&copy; Copyright 2024, Ryuki Matsuura"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 
   navbar:
@@ -17,6 +17,9 @@ website:
 
       - href: publication.qmd
         text: Publication
+
+      - href: fluency_annotation_sys.qmd
+        text: Fluency Annotation System
 
       #- href: projects/index.qmd
       #  text: Projects
