@@ -8,6 +8,10 @@ Oral fluency feature annotation system is a open-source program which allows use
 
 ![](images/fluency_annotation_sys.png)
 
+### Demo Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fkpNAbFg0PE?si=9r4nnJPXfFgZI4nm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Installation
 
 1.  **Install Docker**
