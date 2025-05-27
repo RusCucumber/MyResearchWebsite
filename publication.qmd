@@ -4,23 +4,17 @@ title: "Publication"
 
 ## **Articles in Refereed Journals**
 
+-   Suzuki, S., Takatsu, H., **Matsuura, R.**, Koyama, M., Saeki, M., & Matsuyama, Y. (in press). Feedforwarding Diagnostic Language Assessment: AI-Driven Weakness Identification and Contextualised Feedback for L2 Speaking. *Language Testing*.
+
 -   **Matsuura, R.**, Suzuki, S., Takizawa, K., Saeki, M., & Matsuyama, Y. (2025). Gauging the Validity of Machine Learning-Based Temporal Feature Annotation to Measure Fluency in Speech Automatically. *Research Methods in Applied Linguistics*, *4*(1), 1-23. <https://doi.org/10.1016/j.rmal.2024.100177>
-
--   Arai, Y., **Matsuura, R.**, Eguchi, M., & Suzuki., S. (under review).
-
--   Suzuki, S., Takatsu, H., **Matsuura, R**., Koyama, M., Saeki, M., & Matsuyama, Y. (under review).
-
--   Takatsu, H., Suzuki, S., Eguchi, M., **Matsuura, R.**, Saeki, M., & Matsuyama, Y. (under review).
-
--   Takatsu, H., Suzuki, S., **Matsuura, R.**, Koyama, M., & Matsuyama, Y. (under review).
 
 ## **Articles in Refereed Conference Proceedings**
 
--   Saeki, M., Takatsu, H., Kurata, F., Suzuki, S., Eguchi, M., **Matsuura, R.**, Takizawa, K., Yoshikawa, S., & Matsuyama, Y. (2024). InteLLA: Intelligent Language Learning Assistant for Assessing Language Proficiency Through Interviews and Roleplays. Proceedings of SIGDIAL 2024. SIGDIAL 2024. <https://aclanthology.org/2024.sigdial-1.34/>
+-   Saeki, M., Takatsu, H., Kurata, F., Suzuki, S., Eguchi, M., **Matsuura, R.**, Takizawa, K., Yoshikawa, S., & Matsuyama, Y. (2024). InteLLA: Intelligent Language Learning Assistant for Assessing Language Proficiency Through Interviews and Roleplays. *Proceedings of SIGDIAL 2024*, 385-399. <https://aclanthology.org/2024.sigdial-1.34/>
 
 -   **Matsuura, R.** & Suzuki, S. (2023). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. *Proc. of Artificial Intelligence in Education (AIED)*. <https://doi.org/10.1007/978-3-031-36272-9_62>
 
--   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. *Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)*. 1312-1320. <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
+-   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. *Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)*, 1312-1320. <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
 
 ## Articles in Non-Refereed Journals and Conference Proceedings
 
@@ -36,6 +30,10 @@ title: "Publication"
 
 ### Invited Talks
 
+-   **Matsuura, R**. (2025, May). The Development and Evaluation of an Automatic Fluency Annotation System. 8th Language Learning Assessment Group Meeting, University of Tsukuba. (松浦瑠希，(2025, 5月)．流暢性自動アノテーションシステムの開発と評価．第8回言語学習評価研究会，筑波大学．
+
+-   **Matsuura, R**. (2025, May). The Utilization of an Automatic Fluency Annotation System (Workshop). 8th Language Learning Assessment Group Meeting, University of Tsukuba. (松浦瑠希，(2025, 5月)．流暢性自動アノテーションシステムの活用（ワークショップ）．第8回言語学習評価研究会，筑波大学．
+
 -   Suzuki, S., Saeki, M., & **Matsuura, R.** (2023, June). Pedagogical potential of multimodal conversational AI for foreign language learning and assessment. Paper presented at Korean PhD students and researchers in the UK (KRUK) (Zoom).
 
 -   Suzuki, S., Saeki, M., & **Matsuura, R.** (2022, July). Development of Online Language Learning Assistant AI System that Grows with Humans. International Collaborative Practice S V: Computer-Assisted Language Learning, University of Tokyo.
@@ -43,6 +41,12 @@ title: "Publication"
 -   Suzuki, S. & **Matsuura, R.** (2022, February). L2 oral fluency: From the construct definition to automated scoring. Applied Linguistics Research Circle Weekly Talk, University of Reading (Zoom).
 
 ### Refereed Paper and Poster Presentations
+
+-   Konishi , T., Mukai, Y., Suzuki, S., Hitomi, K., **Matsuura, R.**, & Kanzawa, K. (2025, Sep.) Investigating Effects of Speech Fluency and Rhythm in English on Japanese Learners' Task Delivery Scores. SLRF. Flagstaff, US.
+
+-   Murao, R., **Matsuura, R.**, Webb, S., & Boers, F. (2025, June). Exploring Frequency Effects on EFL Learners' Syntactic Knowledge of High-Frequency Verbs. EuroSLA. Tromsø, Norway.
+
+-   Murao, R., **Matsuura, R.**, Webb, S., & Boers, F. (2025, June). Mastering High-Frequency Verbs: Effects of Frequency and Proficiency on the Acquisition of Verb Subcategorization Frames. Vocab\@Marryland, Marryland, US.
 
 -   **Matsuura, R.** (2025, March). Uncovering the Power of Dialogic Task Repetition: Focusing on L2 Fluency Development. AAAL. Denver, US.
 
