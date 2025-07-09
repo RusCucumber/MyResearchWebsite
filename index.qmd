@@ -50,15 +50,15 @@ In addition, I am interested in advancing research methodologies in SLA using st
 
 ## Recent Publication
 
--   Suzuki, S., Takatsu, H., **Matsuura, R.**, Koyama, M., Saeki, M., & Matsuyama, Y. (in press). Feedforwarding Diagnostic Language Assessment: AI-Driven Weakness Identification and Contextualised Feedback for L2 Speaking. *Language Testing*.
+-   Takatsu, H., Suzuki, S**.**, Eguchi, M., **Matsuura, R.**, Saeki, M., & Matsuyama, Y. (in press, 2026). Gnowsis: Multimodal multitask learning for oral proficiency assessments. *Computer Speech & Language*. [https://www.sciencedirect.com/science/article/pii/S0885230825000853](https://www.sciencedirect.com/science/article/pii/S0885230825000853?via%3Dihub)
+
+-   **Matsuura, R.**, Bharadwaj, S., Liu, J., & Govindarajan, D. K. (2025). EmoNews: A Spoken Dialogue System for Expressive News Conversations. *Proc. of SigDIAL 2025.* <https://arxiv.org/abs/2506.13894>
+
+-   Suzuki, S., Takatsu, H., **Matsuura, R.**, Koyama, M., Saeki, M., & Matsuyama, Y. (in press, 2025). Feedforwarding Diagnostic Language Assessment: AI-Driven Weakness Identification and Contextualised Feedback for L2 Speaking. *Language Testing*.
 
 -   **Matsuura, R.**, Suzuki, S., Takizawa, K., Saeki, M., & Matsuyama, Y. (2025). Gauging the Validity of Machine Learning-Based Temporal Feature Annotation to Measure Fluency in Speech Automatically. *Research Methods in Applied Linguistics*, *4*(1), 1-23. <https://doi.org/10.1016/j.rmal.2024.100177>
 
 -   Saeki, M., Takatsu, H., Kurata, F., Suzuki, S., Eguchi, M., **Matsuura, R.**, Takizawa, K., Yoshikawa, S., & Matsuyama, Y. (2024). InteLLA: Intelligent Language Learning Assistant for Assessing Language Proficiency Through Interviews and Roleplays. Proc. of SIGDIAL 2024, 385-399. <https://aclanthology.org/2024.sigdial-1.34/>
-
--   **Matsuura, R.** & Suzuki, S. (2023). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. Proc. of Artificial Intelligence in Education (AIED). doi: <https://doi.org/10.1007/978-3-031-36272-9_62>
-
--   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). 1312-1320. doi: <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
 
 </div>
 
