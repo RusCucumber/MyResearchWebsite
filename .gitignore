@@ -1,3 +1,8 @@
 .quarto/
 .Rproj.user/
 /.quarto/
+<<<<<<< HEAD
+=======
+.DS_Store
+**/*.quarto_ipynb
+>>>>>>> gh-pages-7

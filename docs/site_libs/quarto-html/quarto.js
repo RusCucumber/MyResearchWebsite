@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+import * as tabsets from "./tabsets/tabsets.js";
+import * as axe from "./axe/axe-check.js";
+
+>>>>>>> gh-pages-7
 const sectionChanged = new CustomEvent("quarto-sectionChanged", {
   detail: {},
   bubbles: true,
@@ -64,19 +70,54 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
     }
   };
 
+<<<<<<< HEAD
   // fire slideEnter for bootstrap tab activations (for htmlwidget resize behavior)
   function fireSlideEnter(e) {
+=======
+  // dispatch for htmlwidgets
+  // they use slideenter event to trigger resize
+  function fireSlideEnter() {
+>>>>>>> gh-pages-7
     const event = window.document.createEvent("Event");
     event.initEvent("slideenter", true, true);
     window.document.dispatchEvent(event);
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages-7
   const tabs = window.document.querySelectorAll('a[data-bs-toggle="tab"]');
   tabs.forEach((tab) => {
     tab.addEventListener("shown.bs.tab", fireSlideEnter);
   });
 
+<<<<<<< HEAD
   // fire slideEnter for tabby tab activations (for htmlwidget resize behavior)
   document.addEventListener("tabby", fireSlideEnter, false);
+=======
+  // dispatch for shiny
+  // they use BS shown and hidden events to trigger rendering
+  function distpatchShinyEvents(previous, current) {
+    if (window.jQuery) {
+      if (previous) {
+        window.jQuery(previous).trigger("hidden");
+      }
+      if (current) {
+        window.jQuery(current).trigger("shown");
+      }
+    }
+  }
+
+  // tabby.js listener: Trigger event for htmlwidget and shiny
+  document.addEventListener(
+    "tabby",
+    function (event) {
+      fireSlideEnter();
+      distpatchShinyEvents(event.detail.previousTab, event.detail.tab);
+    },
+    false
+  );
+>>>>>>> gh-pages-7
 
   // Track scrolling and mark TOC links as active
   // get table of contents and sidebar (bail if we don't have at least one)
@@ -94,7 +135,11 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
       if (link.href.indexOf("#") !== -1) {
         const anchor = link.href.split("#")[1];
         const heading = window.document.querySelector(
+<<<<<<< HEAD
           `[data-anchor-id=${anchor}]`
+=======
+          `[data-anchor-id="${anchor}"]`
+>>>>>>> gh-pages-7
         );
         if (heading) {
           // Add the class
@@ -134,8 +179,15 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
       window.innerHeight + window.pageYOffset >=
       window.document.body.offsetHeight
     ) {
+<<<<<<< HEAD
       sectionIndex = 0;
     } else {
+=======
+      // This is the no-scroll case where last section should be the active one
+      sectionIndex = 0;
+    } else {
+      // This finds the last section visible on screen that should be made active
+>>>>>>> gh-pages-7
       sectionIndex = [...sections].reverse().findIndex((section) => {
         if (section) {
           return window.pageYOffset >= section.offsetTop - sectionMargin;
@@ -223,7 +275,14 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   }
 
   async function findAndActivateCategories() {
+<<<<<<< HEAD
     const currentPagePath = offsetAbsoluteUrl(window.location.href);
+=======
+    // Categories search with listing only use path without query
+    const currentPagePath = offsetAbsoluteUrl(
+      window.location.origin + window.location.pathname
+    );
+>>>>>>> gh-pages-7
     const response = await fetch(offsetRelativeUrl("listings.json"));
     if (response.status == 200) {
       return response.json().then(function (listingPaths) {
@@ -231,9 +290,16 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
         for (const listingPath of listingPaths) {
           const pathWithoutLeadingSlash = listingPath.listing.substring(1);
           for (const item of listingPath.items) {
+<<<<<<< HEAD
             if (
               item === currentPagePath ||
               item === currentPagePath + "index.html"
+=======
+            const encodedItem = encodeURI(item);
+            if (
+              encodedItem === currentPagePath ||
+              encodedItem === currentPagePath + "index.html"
+>>>>>>> gh-pages-7
             ) {
               // Resolve this path against the offset to be sure
               // we already are using the correct path to the listing
@@ -317,6 +383,10 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
           for (const child of el.children) {
             child.style.opacity = 0;
             child.style.overflow = "hidden";
+<<<<<<< HEAD
+=======
+            child.style.pointerEvents = "none";
+>>>>>>> gh-pages-7
           }
 
           nexttick(() => {
@@ -358,6 +428,10 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
 
               const clone = child.cloneNode(true);
               clone.style.opacity = 1;
+<<<<<<< HEAD
+=======
+              clone.style.pointerEvents = null;
+>>>>>>> gh-pages-7
               clone.style.display = null;
               toggleContents.append(clone);
             }
@@ -432,6 +506,10 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
           for (const child of el.children) {
             child.style.opacity = 1;
             child.style.overflow = null;
+<<<<<<< HEAD
+=======
+            child.style.pointerEvents = null;
+>>>>>>> gh-pages-7
           }
 
           const placeholderEl = window.document.getElementById(
@@ -732,13 +810,21 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
 
     // See if there is an active child to this element
     let hasActiveChild = false;
+<<<<<<< HEAD
     for (child of el.children) {
+=======
+    for (const child of el.children) {
+>>>>>>> gh-pages-7
       hasActiveChild = walk(child, depth) || hasActiveChild;
     }
 
     // Process the collapse state if this is an UL
     if (el.tagName === "UL") {
       if (tocOpenDepth === -1 && depth > 1) {
+<<<<<<< HEAD
+=======
+        // toc-expand: false
+>>>>>>> gh-pages-7
         el.classList.add("collapse");
       } else if (
         depth <= tocOpenDepth ||
@@ -757,10 +843,16 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   };
 
   // walk the TOC and expand / collapse any items that should be shown
+<<<<<<< HEAD
 
   if (tocEl) {
     walk(tocEl, 0);
     updateActiveLink();
+=======
+  if (tocEl) {
+    updateActiveLink();
+    walk(tocEl, 0);
+>>>>>>> gh-pages-7
   }
 
   // Throttle the scroll event and walk peridiocally
@@ -779,6 +871,13 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   window.addEventListener(
     "resize",
     throttle(() => {
+<<<<<<< HEAD
+=======
+      if (tocEl) {
+        updateActiveLink();
+        walk(tocEl, 0);
+      }
+>>>>>>> gh-pages-7
       if (!isReaderMode()) {
         hideOverlappedSidebars();
       }
@@ -788,6 +887,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   highlightReaderToggle(isReaderMode());
 });
 
+<<<<<<< HEAD
 // grouped tabsets
 window.addEventListener("pageshow", (_event) => {
   function getTabSettings() {
@@ -880,6 +980,10 @@ window.addEventListener("pageshow", (_event) => {
     }
   }
 });
+=======
+tabsets.init();
+axe.init();
+>>>>>>> gh-pages-7
 
 function throttle(func, wait) {
   let waiting = false;
