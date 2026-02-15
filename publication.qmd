@@ -4,9 +4,11 @@ title: "Publication"
 
 ## **Articles in Refereed Journals**
 
--   Takatsu, H., Suzuki, S**.**, Eguchi, M., **Matsuura, R.**, Saeki, M., & Matsuyama, Y. (in press, 2026). Gnowsis: Multimodal multitask learning for oral proficiency assessments. *Computer Speech & Language*. [https://www.sciencedirect.com/science/article/pii/S0885230825000853](https://www.sciencedirect.com/science/article/pii/S0885230825000853?via%3Dihub)
+-   Arai, Y., **Matsuura, R.**, Eguchi, M., & Suzuki, S. (2026) Tracking the Longitudinal Change of Flow Experience in an EFL Conversation Course. *The Journal for the Psychology of Language Learning*. <https://www.jpll.org/index.php/journal/article/view/253>
 
--   Suzuki, S., Takatsu, H., **Matsuura, R.**, Koyama, M., Saeki, M., & Matsuyama, Y. (in press, 2025). Feedforwarding Diagnostic Language Assessment: AI-Driven Weakness Identification and Contextualised Feedback for L2 Speaking. *Language Testing*.
+-   Takatsu, H., Suzuki, S**.**, Eguchi, M., **Matsuura, R.**, Saeki, M., & Matsuyama, Y. (2026). Gnowsis: Multimodal multitask learning for oral proficiency assessments. *Computer Speech & Language*. [https://www.sciencedirect.com/science/article/pii/S0885230825000853](https://www.sciencedirect.com/science/article/pii/S0885230825000853?via%3Dihub)
+
+-   Suzuki, S., Takatsu, H., **Matsuura, R.**, Koyama, M., Saeki, M., & Matsuyama, Y. (2025). Feedforwarding Diagnostic Language Assessment: AI-Driven Weakness Identification and Contextualised Feedback for L2 Speaking. *Language Testing*. <https://doi.org/10.1177/02655322251348725>
 
 -   **Matsuura, R.**, Suzuki, S., Takizawa, K., Saeki, M., & Matsuyama, Y. (2025). Gauging the Validity of Machine Learning-Based Temporal Feature Annotation to Measure Fluency in Speech Automatically. *Research Methods in Applied Linguistics*, *4*(1), 1-23. <https://doi.org/10.1016/j.rmal.2024.100177>
 
@@ -45,6 +47,10 @@ title: "Publication"
 -   Suzuki, S. & **Matsuura, R.** (2022, February). L2 oral fluency: From the construct definition to automated scoring. Applied Linguistics Research Circle Weekly Talk, University of Reading (Zoom).
 
 ### Refereed Paper and Poster Presentations
+
+-   **Matsuura, R.**, & van Compernolle, Rémi A. (2025, March) Pragmatic Instruction Beyond English: A Qualitative Synthesis of Instructional Effects in L2 Japanese Pragmatics. AAAL. Chicago, US.
+
+<!-- -->
 
 -   Konishi , T., Mukai, Y., Suzuki, S., Hitomi, K., **Matsuura, R.**, & Kanzawa, K. (2025, Sep.) Investigating Effects of Speech Fluency and Rhythm in English on Japanese Learners' Task Delivery Scores. SLRF. Flagstaff, US.
 
