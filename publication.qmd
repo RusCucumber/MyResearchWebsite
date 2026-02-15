@@ -4,21 +4,6 @@ title: "Publication"
 
 ## **Articles in Refereed Journals**
 
-<<<<<<< HEAD
--   **Matsuura, R.**, Suzuki, S., Takizawa, K., Saeki, M., & Matsuyama, Y. (under review).
-
--   Arai, Y., **Matsuura, R.**, Eguchi, M., & Suzuki., S. (under review).
-
--   Suzuki, S., Takatsu, H., **Matsuura, R**., Koyama, M., Saeki, M., & Matsuyama, Y. (under review).
-
-## **Articles in Refereed Conference Proceedings**
-
--   Saeki, M., Takatsu, H., Kurata, F., Suzuki, S., Eguchi, M., **Matsuura, R.**, Takizawa, K., Yoshikawa, S., & Matsuyama, Y. (in press). InteLLA: Intelligent Language Learning Assistant for Assessing Language Proficiency Through Interviews and Roleplays. Proceedings of SIGDIAL 2024. SIGDIAL 2024.
-
--   **Matsuura, R.** & Suzuki, S. (2023). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. *Proc. of Artificial Intelligence in Education (AIED)*. doi: <https://doi.org/10.1007/978-3-031-36272-9_62>
-
--   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. *Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)*. 1312-1320. doi: <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
-=======
 -   Arai, Y., **Matsuura, R.**, Eguchi, M., & Suzuki, S. (2026) Tracking the Longitudinal Change of Flow Experience in an EFL Conversation Course. *The Journal for the Psychology of Language Learning*. <https://www.jpll.org/index.php/journal/article/view/253>
 
 -   Takatsu, H., Suzuki, S**.**, Eguchi, M., **Matsuura, R.**, Saeki, M., & Matsuyama, Y. (2026). Gnowsis: Multimodal multitask learning for oral proficiency assessments. *Computer Speech & Language*. [https://www.sciencedirect.com/science/article/pii/S0885230825000853](https://www.sciencedirect.com/science/article/pii/S0885230825000853?via%3Dihub)
@@ -36,7 +21,6 @@ title: "Publication"
 -   **Matsuura, R.** & Suzuki, S. (2023). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. *Proc. of Artificial Intelligence in Education (AIED)*. <https://doi.org/10.1007/978-3-031-36272-9_62>
 
 -   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. *Proc. of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)*, 1312-1320. <https://doi.org/10.23919/APSIPAASC55919.2022.9980148>
->>>>>>> gh-pages-7
 
 ## Articles in Non-Refereed Journals and Conference Proceedings
 
@@ -52,13 +36,10 @@ title: "Publication"
 
 ### Invited Talks
 
-<<<<<<< HEAD
-=======
 -   **Matsuura, R**. (2025, May). The Development and Evaluation of an Automatic Fluency Annotation System. 8th Language Learning Assessment Group Meeting, University of Tsukuba. (松浦瑠希，(2025, 5月)．流暢性自動アノテーションシステムの開発と評価．第8回言語学習評価研究会，筑波大学．
 
 -   **Matsuura, R**. (2025, May). The Utilization of an Automatic Fluency Annotation System (Workshop). 8th Language Learning Assessment Group Meeting, University of Tsukuba. (松浦瑠希，(2025, 5月)．流暢性自動アノテーションシステムの活用（ワークショップ）．第8回言語学習評価研究会，筑波大学．
 
->>>>>>> gh-pages-7
 -   Suzuki, S., Saeki, M., & **Matsuura, R.** (2023, June). Pedagogical potential of multimodal conversational AI for foreign language learning and assessment. Paper presented at Korean PhD students and researchers in the UK (KRUK) (Zoom).
 
 -   Suzuki, S., Saeki, M., & **Matsuura, R.** (2022, July). Development of Online Language Learning Assistant AI System that Grows with Humans. International Collaborative Practice S V: Computer-Assisted Language Learning, University of Tokyo.
@@ -67,8 +48,6 @@ title: "Publication"
 
 ### Refereed Paper and Poster Presentations
 
-<<<<<<< HEAD
-=======
 -   **Matsuura, R.**, & van Compernolle, Rémi A. (2025, March) Pragmatic Instruction Beyond English: A Qualitative Synthesis of Instructional Effects in L2 Japanese Pragmatics. AAAL. Chicago, US.
 
 <!-- -->
@@ -85,22 +64,12 @@ title: "Publication"
 
 -   Koyama, M., Suzuki, S., & **Matsuura, R.** (2025, March). Exploring Cognitive Processes Underlying Pauses and Disfluency Phenomena: A Mixed-Methods Study. AAAL. Denver, US.
 
->>>>>>> gh-pages-7
 -   **Matsuura, R.**, Suzuki, S., Eguchi, M., Saeki, M., & Matsuyama, Y. (2024, August). Which Lexical Errors Trigger Recasts? Differential Effects of the Rhetorical Role on Dialogic Comprehensibility. AILA. Kuala Lumpur, Malaysia.
 
 -   Suzuki, S., Takatsu, H., **Matsuura, R.**, Saeki, M., Arai, Y., & Matsuyama, Y. (2024, July). You may say this better: Consequential validity evidence for diagnostic speaking assessment on lexical use. LTRC. Innsbruck, Austria.
 
 -   Sawaki, Y., Arai, Y., Eguchi, M., **Matsuura, R.**, Suzuki. S., & Matsuyama, Y. (2024, July). Building an argument for test score interpretation and use for a fully automated online assessment of L2 spoken interaction. LTRC. Innsbruck, Austria.
 
-<<<<<<< HEAD
--   Suzuki, S., Matsuura, R., Inada, Y., Saeki, M., & Matsuyama, Y. (2023, July). What temporal and dialogic features distinguished between second language oral proficiency levels? The case of oral proficiency interview. AILA. Lyon, France.
-
--   **Matsuura, R.** & Suzuki, S. (2023, July). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. AIED. Tokyo, Japan.
-
--   **Matsuura, R.** (2023, June). Developing and validating automatic annotation system of silent pause locations and disfluency words. LTRC. New York City, USA.
-
--   Matsuyama, Y., Suzuki, S., Saeki, M., Takatsu, H., **Matsuura, R.**, & Arai, Y. (2023, June). Towards an explainable automated scoring of spoken interaction with a conversational AI agent. In J. Eunice, & Y. Sawaki. (Convenors), Technology in Diagnostic and Formative Language Assessment: Friend or Foe? LTRC. New York City, USA.
-=======
 -   Suzuki, S., **Matsuura, R.**, Inada, Y., Saeki, M., & Matsuyama, Y. (2023, July). What temporal and dialogic features distinguished between second language oral proficiency levels? The case of oral proficiency interview. AILA. Lyon, France.
 
 -   **Matsuura, R.** & Suzuki, S. (2023, July). Prompt-independent Automated Scoring of L2 Oral Fluency by Capturing Prompt Effects. AIED. Tokyo, Japan.
@@ -108,7 +77,6 @@ title: "Publication"
 -   **Matsuura, R.** (2023, June). Developing and validating automatic annotation system of silent pause locations and disfluency words. LTRC. New York City, US.
 
 -   Matsuyama, Y., Suzuki, S., Saeki, M., Takatsu, H., **Matsuura, R.**, & Arai, Y. (2023, June). Towards an explainable automated scoring of spoken interaction with a conversational AI agent. In J. Eunice, & Y. Sawaki. (Convenors), Technology in Diagnostic and Formative Language Assessment: Friend or Foe? LTRC. New York City, US.
->>>>>>> gh-pages-7
 
 -   **Matsuura, R.**, Suzuki, S., Saeki, M., Ogawa, T., & Matsuyama, Y. (2022, November). Refinement of Utterance Fluency Feature Extraction and Automated Scoring of L2 Oral Fluency with Dialogic Features. APSIPA ASC. Chiang-Mai, Thailand.
 
