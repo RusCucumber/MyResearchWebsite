@@ -74,7 +74,6 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
     event.initEvent("slideenter", true, true);
     window.document.dispatchEvent(event);
   }
-
   const tabs = window.document.querySelectorAll('a[data-bs-toggle="tab"]');
   tabs.forEach((tab) => {
     tab.addEventListener("shown.bs.tab", fireSlideEnter);
