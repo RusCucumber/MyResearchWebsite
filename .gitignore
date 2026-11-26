@@ -29,3 +29,6 @@ tmp/
 temp/
 *.tmp
 *.temp
+
+# Personal Claude Code instructions
+CLAUDE.local.md

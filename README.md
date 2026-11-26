@@ -49,7 +49,7 @@ The Claude Code setup is ported from [research-project-template](https://github.
 - Plugins: oh-my-claudecode, superpowers, genshijin, claude-mem — install them as in the template's `docs/manual_setup_flow.md` (step 5); `claude-mem` needs [Bun](https://bun.sh/)
 - Rules (`.claude/rules/`): Quarto sandbox caveats, Obsidian vault usage
 - Skills (`.claude/skills/`): `git-strategy` (this repository's workflow), `obsidian-markdown`, `pdf`, `docx`, `doc-coauthoring` (update upstream ones with `gh skill update`)
-- Instructions: project-specific ones in the root `CLAUDE.md`; `.claude/CLAUDE.md` is managed by oh-my-claudecode
+- Instructions: project-specific ones in `CLAUDE.local.md` (git-ignored, local only); `.claude/CLAUDE.md` is managed by oh-my-claudecode
 
 ## Project Structure
 
@@ -67,5 +67,5 @@ The Claude Code setup is ported from [research-project-template](https://github.
 ├── .claude/                   # Claude Code settings, rules, skills
 ├── .github/                   # Issue templates, labels, ruleset, workflows
 ├── .zed/                      # Zed settings and tasks
-└── CLAUDE.md                  # Project instructions for Claude
+└── CLAUDE.local.md            # Local project instructions for Claude (git-ignored)
 ```
