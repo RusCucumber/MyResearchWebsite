@@ -6,7 +6,6 @@ permalink: /talks/2025-03-22-exploring-cognitive-processes-underlying-pauses-and
 date: 2025-03-22
 type: 'Presentation'
 venue: 'AAAL'
-excerpt: 'Koyama, M., Suzuki, S., & **Matsuura, R.** (2025, March). Exploring Cognitive Processes Underlying Pauses and Disfluency Phenomena: A Mixed-Methods Study. AAAL. Denver, US.'
 location: 'Denver, US'
 ---
 

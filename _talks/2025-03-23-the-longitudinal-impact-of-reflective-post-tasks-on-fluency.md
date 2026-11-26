@@ -6,7 +6,6 @@ permalink: /talks/2025-03-23-the-longitudinal-impact-of-reflective-post-tasks-on
 date: 2025-03-23
 type: 'Presentation'
 venue: 'AAAL'
-excerpt: 'Custance, I. & **Matsuura, R.** (2025, March). The Longitudinal Impact of Reflective Post-Tasks on Fluency Development in Monologic Impromptu Speeches. AAAL. Denver, US.'
 location: 'Denver, US'
 ---
 

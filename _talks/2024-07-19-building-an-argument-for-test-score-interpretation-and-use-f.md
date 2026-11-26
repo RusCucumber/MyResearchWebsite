@@ -6,7 +6,6 @@ permalink: /talks/2024-07-19-building-an-argument-for-test-score-interpretation-
 date: 2024-07-19
 type: 'Presentation'
 venue: 'LTRC'
-excerpt: 'Sawaki, Y., Arai, Y., Eguchi, M., **Matsuura, R.**, Suzuki. S., & Matsuyama, Y. (2024, July). Building an argument for test score interpretation and use for a fully automated online assessment of L2 spoken interaction. LTRC. Innsbruck, Austria.'
 location: 'Innsbruck, Austria'
 ---
 

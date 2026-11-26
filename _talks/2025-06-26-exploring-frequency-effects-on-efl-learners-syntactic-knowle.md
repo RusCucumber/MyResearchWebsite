@@ -6,7 +6,6 @@ permalink: /talks/2025-06-26-exploring-frequency-effects-on-efl-learners-syntact
 date: 2025-06-26
 type: 'Presentation'
 venue: 'EuroSLA'
-excerpt: 'Murao, R., **Matsuura, R.**, Webb, S., & Boers, F. (2025, June). Exploring Frequency Effects on EFL Learners'' Syntactic Knowledge of High-Frequency Verbs. EuroSLA. Tromsø, Norway.'
 location: 'Tromsø, Norway'
 ---
 

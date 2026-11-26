@@ -9,17 +9,17 @@ redirect_from:
 
 ## Affiliation
 
-***Ph.D. Student, Carnegie Mellon University, United States***
+_**Ph.D. Student, Carnegie Mellon University, United States**_
 
 ## Education
 
-2024-Present: ***Ph.D. in Applied Linguistics & SLA**, Carnegie Mellon University, United States*
+2024-Present: _**Ph.D. in Applied Linguistics & SLA**, Carnegie Mellon University, United States_
 
-2022-2024: ***M.A. in Engineering**, Waseda University, Japan*
+2022-2024: _**M.A. in Engineering**, Waseda University, Japan_
 
 2018-2019: Student Exchange Program, St. Petersburg State University, Russia
 
-2017-2022: ***B.A. in Liberal Arts**, Waseda University, Japan*
+2017-2022: _**B.A. in Liberal Arts**, Waseda University, Japan_
 
 ## Research
 
@@ -51,7 +51,7 @@ In addition, I am interested in advancing research methodologies in SLA using st
 
     -   I declined the fellowship because I started a Ph.D. program outside Japan.
 
--   August 2024 – May 2028 (expected): ***Dick Tucker SLA Fellowship**.*
+-   August 2024 – May 2028 (expected): _**Dick Tucker SLA Fellowship**._
 
     -   Amount awarded: (USD 2,500 per month).
 

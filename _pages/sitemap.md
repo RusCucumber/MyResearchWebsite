@@ -12,10 +12,12 @@ A list of all the posts and pages found on the site. For you robots out there, t
 <h2>Pages</h2>
 {% include archive-pages.html %}
 
+{% if site.posts.size > 0 %}
 <h2>Posts</h2>
 {% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}
+{% endif %}
 
 {% capture written_label %}'None'{% endcapture %}
 
@@ -29,7 +31,7 @@ A list of all the posts and pages found on the site. For you robots out there, t
 {% endunless %}
 {% for post in collection.docs %}
   {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
+  {% if collection.label == "talks" %}{% include archive-single-talk.html %}{% else %}{% include archive-single.html %}{% endif %}
   {% endunless %}
 {% endfor %}
 {% endfor %}

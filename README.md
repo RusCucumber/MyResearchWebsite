@@ -17,7 +17,7 @@ docker compose up --build   # then open http://localhost:4000/MyResearchWebsite/
 docker compose down
 ```
 
-The first run builds the image (Ruby 3.2 + gems). The container builds `assets/js/main.min.js` and runs `jekyll serve` with live reload; changes to `_config.yml` need a restart. In Zed, the same commands are available as tasks (`Jekyll: Preview Site`, `Jekyll: Stop Preview`).
+The first run builds the image (Ruby 3.2 + gems). The container builds `assets/js/main.min.js` and runs `jekyll serve -w` (rebuilds on save; reload the browser); changes to `_config.yml` need a restart. In Zed, the same commands are available as tasks (`Jekyll: Preview Site (docker compose up)`, `Jekyll: Stop Preview (docker compose down)`).
 
 > [!NOTE]
 > Docker and Jekyll do not run inside the Claude Code sandbox. Preview in your own terminal.

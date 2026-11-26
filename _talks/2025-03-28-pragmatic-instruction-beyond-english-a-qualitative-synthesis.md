@@ -6,7 +6,6 @@ permalink: /talks/2025-03-28-pragmatic-instruction-beyond-english-a-qualitative-
 date: 2025-03-28
 type: 'Presentation'
 venue: 'AAAL'
-excerpt: '**Matsuura, R.**, & van Compernolle, Rémi A. (2025, March) Pragmatic Instruction Beyond English: A Qualitative Synthesis of Instructional Effects in L2 Japanese Pragmatics. AAAL. Chicago, US.'
 location: 'Chicago, US'
 ---
 

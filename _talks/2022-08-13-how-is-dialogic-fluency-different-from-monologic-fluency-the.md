@@ -6,7 +6,6 @@ permalink: /talks/2022-08-13-how-is-dialogic-fluency-different-from-monologic-fl
 date: 2022-08-13
 type: 'Presentation'
 venue: 'TBLT'
-excerpt: 'Suzuki, S., **Matsuura, R.**, Saeki, M., & Matsuyama, Y. (2022, August). How is dialogic fluency different from monologic fluency? The case of oral proficiency interview. TBLT. Innsbruck, Austria.'
 location: 'Innsbruck, Austria'
 ---
 
