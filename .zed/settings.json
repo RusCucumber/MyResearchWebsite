@@ -1,0 +1,19 @@
+{
+    "format_on_save": "off",
+    "tab_size": 2,
+    "hard_tabs": false,
+    "show_whitespaces": "boundary",
+    "languages": {
+        "Markdown": {
+            "soft_wrap": "editor_width",
+        },
+        "YAML": {
+            "tab_size": 2,
+        },
+    },
+    // Load .envrc via `direnv export json` so tasks and the terminal see the same environment
+    // (requires direnv + `direnv allow`)
+    "load_direnv": "direct",
+    "file_scan_exclusions": ["**/.git", "**/.DS_Store", "**/.quarto", "**/.omc", "docs/site_libs"],
+    "wrap_guides": [119],
+}
