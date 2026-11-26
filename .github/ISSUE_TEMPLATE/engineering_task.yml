@@ -43,7 +43,7 @@ body:
       options:
         - label: Create a branch named `feat/{{descriptive-name}}-{{#issue-number}}` or `fix/{{descriptive-name}}-{{#issue-number}}` based on the task type
         - label: Implement the feature/bug fix
-        - label: Preview the site locally (`quarto preview`) and re-render `docs/` (`quarto render`)
+        - label: Preview the site locally (`docker compose up`, http://localhost:4000/MyResearchWebsite/)
         - label: Push the branch, open a PR, and review the changes
         - label: (Optional) Create an issue for the next action items
 

@@ -5,7 +5,7 @@ description: "Git workflow guidance for this website repository. Use when updati
 
 # Git Strategy Skill
 
-A skill for following the git conventions of this repository (a Quarto website published from `docs/` via GitHub Pages) when implementing any change — from creating a branch to opening a pull request.
+A skill for following the git conventions of this repository (an academicpages Jekyll site, built and deployed to GitHub Pages by GitHub Actions) when implementing any change — from creating a branch to opening a pull request.
 
 ## When to Use This Skill
 
@@ -21,8 +21,8 @@ A skill for following the git conventions of this repository (a Quarto website p
 2. Read the matching issue template file (see mapping below) and use its `body` field labels to construct the issue body
 3. Create the GitHub issue with `gh issue create`, filling in each field from the template
 4. Create branch: `git checkout -b <prefix>/descriptive-name-#<issue-number>`
-5. Edit the sources (`*.qmd`, `_quarto.yml`, `styles.css`, images)
-6. Ask the user to render the site outside the sandbox (`quarto render`) — see `.claude/rules/quarto-render-sandbox.md` — and include the regenerated `docs/` in the same PR. Never hand-edit `docs/`
+5. Edit the sources (`_pages/`, `_publications/`, `_talks/`, `_config.yml`, `_data/navigation.yml`, `images/`, `files/`)
+6. Ask the user to preview the site outside the sandbox (`docker compose up`, <http://localhost:4000/MyResearchWebsite/>) — see `.claude/rules/jekyll-preview-sandbox.md`. Nothing generated is committed: GitHub Actions builds and deploys the site after merge
 7. Commit: `git commit -m "[tag] short description"`
 8. (Optional) For a non-trivial change, get a second opinion before opening the PR: `/oh-my-claudecode:ask codex`
 9. Push and open a PR to `main` (HTTPS only — see [Pushing (HTTPS)](#pushing-https)). Merging to `main` publishes the site
@@ -83,7 +83,7 @@ Add the EmoNews paper to the publication list and the home page.
 - [x] `doc/`: Content updates (pages, publications, CV)
 
 ## Task Details
-Add the APA-style entry to publication.qmd and index.qmd, then re-render docs/.
+Add `_publications/2025-12-01-emonews-....md` (category `conferences`) and list it under Selected Publication in `_pages/about.md`.
 
 ## Action Steps
 - [ ] Create a branch named `doc/add-sigdial-paper-#<issue-number>`
@@ -114,4 +114,4 @@ Format: `[tag] short description` — keep the description concise and in lowerc
 - Do not push directly to `main`; always use a PR (`main` is protected by a ruleset and is what GitHub Pages serves)
 - Do not use `--no-verify` or skip CI checks; fix root causes
 - Do not push over SSH, change the user's git/gh config, or try to work around the sandbox; rely on the Claude-only HTTPS setup (see [Pushing (HTTPS)](#pushing-https))
-- Do not hand-edit generated files under `docs/`
+- Do not commit generated files (`_site/`, `.jekyll-cache/`, `Gemfile.lock`, `assets/js/main.min.js`)

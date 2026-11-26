@@ -1,13 +1,9 @@
-# Quarto
-/.quarto/
-**/*.quarto_ipynb
-
 # OS / editors
 .DS_Store
 .Rproj.user/
 .Rhistory
 
-# Local environments and caches (no Python / R environment is used)
+# Local environments and caches
 .venv
 __pycache__/
 .mypy_cache/
@@ -32,3 +28,17 @@ temp/
 
 # Personal Claude Code instructions
 CLAUDE.local.md
+
+# Jekyll (academicpages)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+local/
+Gemfile.lock
+node_modules
+package-lock.json
+/vendor/
+.bundle/
+# built by .github/workflows/jekyll.yml (and by docker compose locally)
+assets/js/main.min.js
