@@ -1,3 +1,4 @@
+# Local preview: `docker compose up`, then open http://localhost:4000/MyResearchWebsite/
 services:
   jekyll-site:
     image: jekyll-site
@@ -6,4 +7,7 @@ services:
     ports: [ 4000:4000 ]
     user: 1000:1000
     environment: [ JEKYLL_ENV=docker ]
-    command: sleep infinity
+    # main.min.js is git-ignored (CI builds it in .github/workflows/jekyll.yml), so build it here too
+    command: >
+      sh -c "npx --yes uglify-js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js assets/js/theme.js -c -m -o assets/js/main.min.js
+      && bundle exec jekyll serve -H 0.0.0.0 -w --config _config.yml,_config_docker.yml"
