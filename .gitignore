@@ -1,13 +1,9 @@
-# Quarto
-/.quarto/
-**/*.quarto_ipynb
-
 # OS / editors
 .DS_Store
 .Rproj.user/
 .Rhistory
 
-# Local environments and caches (no Python / R environment is used)
+# Local environments and caches
 .venv
 __pycache__/
 .mypy_cache/
