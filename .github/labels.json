@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bug",
+    "description": "Something isn't working",
+    "color": "#d73a4a"
+  },
+  {
+    "name": "Documentation",
+    "description": "Improvements or additions to documentation",
+    "color": "#0075ca"
+  },
+  {
+    "name": "Feature",
+    "description": "Addition or improvements of a new feature",
+    "color": "#a2eeef"
+  },
+  {
+    "name": "Chore",
+    "description": "Miscellaneous tasks, such as environment updates",
+    "color": "#e4e669"
+  }
+]

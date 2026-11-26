@@ -1,5 +1,34 @@
-.quarto/
-.Rproj.user/
+# Quarto
 /.quarto/
-.DS_Store
 **/*.quarto_ipynb
+
+# OS / editors
+.DS_Store
+.Rproj.user/
+.Rhistory
+
+# Local environments and caches (no Python / R environment is used)
+.venv
+__pycache__/
+.mypy_cache/
+
+# Environment variables / secrets — also blocked from the Claude Code sandbox
+.env
+.env.*
+!.env.example
+.envrc
+secrets/
+*.pem
+*.key
+
+# oh-my-claudecode caches
+.omc
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Personal Claude Code instructions
+CLAUDE.local.md
